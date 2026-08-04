@@ -1,6 +1,6 @@
 package q15;
 
-public class Q15 {
+public class QFifteen {
 
 	public static void main(String[] args) {
 		Animal a1 = new Animal();

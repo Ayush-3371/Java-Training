@@ -1,6 +1,6 @@
 package q28;
 
-public class Q28 {
+public class QTwentyEight {
 
 	public static void main(String[] args) {
 		Deque dq = new Deque();

@@ -1,6 +1,6 @@
 package q27;
 
-public class Q27 {
+public class QTwentySeven {
 
 	public static void main(String[] args) {
 		PriorityQueue pq = new PriorityQueue();

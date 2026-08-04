@@ -2,13 +2,16 @@ package q29;
 
 import java.util.function.BiFunction;
 
-@FunctionalInterface
+/**
+ * This program adds two integers using lambda expression.
+ */
 
+@FunctionalInterface
 interface Func1{
 	Integer add(Integer a, Integer b);
 }
 
-public class Q29 {
+public class QTwentyNine {
 	
 	public static void main(String[] args) {
 		

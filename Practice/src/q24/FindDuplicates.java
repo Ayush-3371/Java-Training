@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * This class provides the method printDuplicates which takes a list of Integers
+ * and prints the list of duplicates present in the given list.
+ */
+
 public class FindDuplicates {
 	
 	private HashMap<Integer, Integer> mpp = new HashMap<>();

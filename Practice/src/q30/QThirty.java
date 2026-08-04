@@ -2,12 +2,16 @@ package q30;
 
 import java.util.function.Predicate;
 
+/**
+ * This program finds whether a string is empty or not using lambda expression.
+ */
+
 @FunctionalInterface
 interface Func2{
 	boolean check(String s);
 }
 
-public class Q30 {
+public class QThirty {
 
 	public static void main(String[] args) {
 		

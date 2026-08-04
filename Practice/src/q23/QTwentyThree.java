@@ -3,7 +3,13 @@ package q23;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Q23 {
+/**
+ * This program accepts a list of integers from the user and 
+ * prints the list containing the numbers and their frequency
+ * using count method of CountFrequency class.
+ */
+
+public class QTwentyThree {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> list = new ArrayList<>();

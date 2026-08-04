@@ -1,8 +1,13 @@
 package q6;
 
-//import java.util.Arrays;
+/**
+ * This program is used to return count and return
+ * the number of Vowels and Consonants in a String 
+ * in for of an integer array where first element is 
+ * number of vowels and the second is number of consonants.
+ */
 
-public class countVovelsAndConsonants {
+public class countVowelsAndConsonants {
 	
 	public int[] solve(String s) {
 		int[] ans = new int[2];

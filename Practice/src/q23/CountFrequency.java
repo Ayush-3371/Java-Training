@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * This class provides the count method which counts the frequency of
+ * Integers in a given list and return a list of lists containing 
+ * frequency of each number in the provided list of Integers.
+ */
+
 public class CountFrequency {
 	
 	private HashMap<Integer,Integer> mpp = new HashMap<>();

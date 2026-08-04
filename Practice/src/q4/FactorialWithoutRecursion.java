@@ -2,6 +2,10 @@ package q4;
 
 import java.util.Scanner;
 
+/**
+ * This program calculates and prints the factorial of a integer number n without using recursion.
+ */
+
 public class FactorialWithoutRecursion {
 
 	public static void main(String[] args) {

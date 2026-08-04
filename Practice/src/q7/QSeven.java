@@ -2,7 +2,11 @@ package q7;
 
 import java.util.Scanner;
 
-public class Q7 {
+/**
+ * This program checks and prints whether an input integer n is a prime number or not.
+ */
+
+public class QSeven {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);

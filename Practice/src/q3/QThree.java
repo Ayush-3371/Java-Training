@@ -2,7 +2,11 @@ package q3;
 
 import java.util.Scanner;
 
-public class Q3 {
+/**
+ * This program swaps two integer numbers without using a third variable.
+ */
+
+public class QThree {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);

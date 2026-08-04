@@ -1,8 +1,12 @@
 package q28;
 
 import java.util.ArrayList;
-
 import java.util.List;
+
+/**
+ * This class provides implementation for a Deque using
+ * a list and provides methods like addLast, addFirst, removeFirst & removeLast.
+ */
 
 public class Deque {
 	

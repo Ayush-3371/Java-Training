@@ -2,7 +2,12 @@ package q13;
 
 import java.util.Scanner;
 
-public class Q13 {
+/**
+ * This program provides implementation for linear search on an integer array
+ * and prints whether the target is in the array or not.
+ */
+
+public class QThirteen {
 	
 	public static boolean linearSearch(int[] arr, int target) {
 		int n = arr.length;

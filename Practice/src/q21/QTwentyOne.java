@@ -1,6 +1,10 @@
 package q21;
 
-public class Q21_Main {
+/**
+ * This program accepts an integer as user input and throws NegativeNumberException .
+ * when user gives a negative number as input.
+ */
+public class QTwentyOne {
 	
 	public static int add(int a, int b) throws NegativeNumberException{
 		if(a < 0 || b < 0) {

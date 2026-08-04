@@ -1,14 +1,17 @@
-package q24;
+package q22;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class Q24 {
+/**
+ * This program accepts a list of Integers and uses RemoveDuplicates class
+ * to remove any duplicates in the list.
+ */
 
+public class QTwentyTwo {
 	public static void main(String[] args) {
-		ArrayList<Integer> list = new ArrayList<>();
+		List<Integer> list = new ArrayList<>();
 		
 		Scanner s = new Scanner(System.in);
 		
@@ -24,11 +27,13 @@ public class Q24 {
 		}
 		
 		s.close();
-		System.out.println("The list you entered is: " + list);
 		
-		FindDuplicates f = new FindDuplicates();
-		f.printDuplicates(list);
+		RemoveDuplicates r = new RemoveDuplicates();
 		
+		System.out.println("Before romving duplicates : " + list);
+		
+		r.remove(list);
+			
+		System.out.println("After removing duplicates : " + list);
 	}
-
 }

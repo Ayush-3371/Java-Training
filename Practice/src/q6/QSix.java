@@ -1,13 +1,18 @@
 package q6;
 
-public class Q6 {
+/**
+ * This programs prints the number of Vowels and Consonants in a String
+ * using the countVowelsAndConsonants class.
+ */
+
+public class QSix {
 
 	public static void main(String[] args) {
 		String s = "Hello, This is my method to reverse a string in Java.";
 		
 		int[] ans = new int[2];
 		
-		countVovelsAndConsonants count = new countVovelsAndConsonants();
+		countVowelsAndConsonants count = new countVowelsAndConsonants();
 		
 		ans = count.solve(s);
 		

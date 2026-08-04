@@ -1,7 +1,7 @@
 package q17;
 
 
-public class Q17 {
+public class QSeventeen {
 
 	public static void main(String[] args) {
 		Vehicle v1 = new Car();

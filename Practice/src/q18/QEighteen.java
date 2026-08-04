@@ -2,7 +2,12 @@ package q18;
 
 import java.util.Scanner;
 
-public class Q18_Main {
+/**
+ * This program takes the name and age using Registration class
+ * and check for UnderAgeExpetion while saving the age of the person registering.
+ */
+
+public class QEighteen {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);

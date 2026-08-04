@@ -1,6 +1,10 @@
 package q14;
 
-public class Q14 {
+/**
+ * This program uses the classes Circle, Rectangle & Triangle
+ * to calculate the respective areas for each kind of objects.
+ */
+public class QFourteen {
 
 	public static void main(String[] args) {
 		Circle c = new Circle(4.0);

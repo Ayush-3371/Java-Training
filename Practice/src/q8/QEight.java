@@ -2,7 +2,11 @@ package q8;
 
 import java.util.Scanner;
 
-public class Q8 {
+/**
+ * This program checks whether the given input integer n is an Armstrong number or not.
+ */
+
+public class QEight {
 	
 	public static int countDigits(int n) {
 		int ans = 0;

@@ -1,5 +1,10 @@
 package q19;
 
+/**
+ * This class takes the account information and updates the account balance 
+ * when any withdrawal is made and throws InsufficientBalance exception 
+ * if withdrawal amount is bigger than account balance.
+ */
 public class AccountInformation {
 	private String name;
 	//private String contactNumber;

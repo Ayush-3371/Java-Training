@@ -1,5 +1,10 @@
 package q18;
 
+/**
+ * This class is used to register someone in an application
+ * by taking there name and age using getters and setters.
+ */
+
 public class Registration {
 		private String name;
 		private int age;

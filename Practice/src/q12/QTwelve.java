@@ -2,7 +2,12 @@ package q12;
 
 import java.util.Arrays;
 
-public class Q12 {
+/**
+ * This program provides the implementation of bubble sort
+ * and sorts an array if integer using the same logic.
+ */
+
+public class QTwelve {
 
 	public static void bubbleSort(int arr[]) {
 		int n = arr.length;

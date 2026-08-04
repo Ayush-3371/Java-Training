@@ -1,5 +1,9 @@
 package q5;
 
+/**
+ * This program provides the implementation to reverse a String without using built-in functions.
+ */
+
 public class ReverseString {
 	public String reverse(String s) {
 		StringBuffer res = new StringBuffer("");

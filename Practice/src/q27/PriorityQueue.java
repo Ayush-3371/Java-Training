@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * This class provides implementation for a PriorityQueue using
+ * a list and provides methods like add, peek & remove.
+ */
+
 public class PriorityQueue {
 	private List<Integer> list = new ArrayList<>();
 	

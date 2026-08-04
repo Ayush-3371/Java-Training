@@ -2,7 +2,11 @@ package q9;
 
 import java.util.Scanner;
 
-public class Q9 {
+/**
+ * This program calculates and prints the sum of digits of an integer n.
+ */
+
+public class QNine {
 	
 	public static int sumDigits(int n) {
 		int ans = 0;

@@ -2,6 +2,10 @@ package q1;
 
 import java.util.Scanner;
 
+/**
+ * This is a program to print Fibonacci Numbers upto nth term without using recursion.
+ */
+
 public class FibonaccibWithoutRecursion {
 	
 	

@@ -4,12 +4,16 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.function.Function;
 
+/**
+ * This program finds the average of list of doubles using Lambda expression.
+ */
+
 @FunctionalInterface
 interface Func4{
 	Double calculateAvg(ArrayList<Double> list);
 }
 
-public class Q33 {
+public class QThirtyThree {
 
 	public static void main(String[] args) {
 		ArrayList<Double> list = new ArrayList<>(Arrays.asList(10.0, 15.0, 25.0, 30.0, 45.0));

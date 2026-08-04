@@ -2,6 +2,10 @@ package q4;
 
 import java.util.Scanner;
 
+/**
+ * This program calculates and prints factorial of an integer number n using recursion.
+ */
+
 public class FactorialWithRecursion {
 	
 	public static int fact(int n) {

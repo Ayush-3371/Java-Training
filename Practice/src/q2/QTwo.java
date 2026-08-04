@@ -2,7 +2,11 @@ package q2;
 
 import q7.IsPrime;
 
-public class Q2 {
+/**
+ * This program prints the prime numbers from 1 till 100.
+ */
+
+public class QTwo{
 
 	public static void main(String[] args) {
 		IsPrime p = new IsPrime();

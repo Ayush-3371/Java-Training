@@ -4,7 +4,11 @@ import q7.IsPrime;
 import java.util.Scanner;
 import java.util.function.Predicate;
 
-public class Q32 {
+/**
+ * This program checks whether a number is prime or not using lambda expression.
+ */
+
+public class QThirtyTwo {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
@@ -12,6 +16,8 @@ public class Q32 {
 		System.out.println("Enter the number you want to check: ");
 		
 		Integer n = s.nextInt();
+		
+		s.close();
 		
 		IsPrime c = new IsPrime();
 		

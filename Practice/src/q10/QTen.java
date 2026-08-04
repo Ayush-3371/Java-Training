@@ -1,6 +1,10 @@
 package q10;
 
-public class Q10 {
+/**
+ * This program finds and prints the maximum among three numbers.
+ */
+
+public class QTen {
 
 	public static void main(String[] args) {
 		int x = 10, y = 5, z =15;

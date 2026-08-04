@@ -2,7 +2,11 @@ package q11;
 
 import java.util.Scanner;
 
-public class Q11 {
+/**
+ * This program checks and prints whether an input integer n is even or not.
+ */
+
+public class QEleven {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);

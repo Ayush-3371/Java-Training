@@ -2,9 +2,13 @@ package q25;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
-public class Q25 {
+/**
+ * This programs sorts a given list of strings in ascending then descending order 
+ * and prints the sorted list.
+ */
+
+public class QTwentyFive {
 	public static void main(String[] args) {
 		
 		ArrayList<String> list = new ArrayList<>();
@@ -13,11 +17,11 @@ public class Q25 {
 		
 		System.out.println("Original Array: " + list);
 		
-		Collections.sort(list);
-		
+		list.sort((s1, s2) -> s1.compareTo(s2));
+				
 		System.out.println("Ascending Sort: " + list);
 		
-		list.sort(Comparator.reverseOrder());
+		list.sort((s1, s2) -> s1.compareTo(s2) == 0 ? 0 : (-1)*s1.compareTo(s2));
 		
 		System.out.println("Descending Sort: " + list);
 		

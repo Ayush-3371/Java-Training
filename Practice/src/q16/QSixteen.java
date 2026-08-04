@@ -1,6 +1,6 @@
 package q16;
 
-public class Q16 {
+public class QSixteen {
 
 	public static void main(String[] args) {
 		Sport s1 = new Sport();

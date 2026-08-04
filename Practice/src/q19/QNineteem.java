@@ -2,8 +2,11 @@ package q19;
 
 import java.util.Scanner;
 
-
-public class Q19_Main {
+/**
+ * This program takes the account information and calls withdraw method
+ * when the account holder tries to make a withdrawal.
+ */
+public class QNineteem {
 	
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);

@@ -1,5 +1,10 @@
 package q7;
 
+/**
+ * This program provides implementation to check whether integer n is prime or not
+ * and return a boolean answer.
+ */
+
 public class IsPrime {
 	public boolean checkPrime(Integer n) {
 		if(n <= 1) return false;

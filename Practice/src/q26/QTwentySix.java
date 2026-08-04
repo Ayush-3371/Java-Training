@@ -3,7 +3,11 @@ package q26;
 import java.util.Collections;
 import java.util.HashSet;
 
-public class Q26 {
+/**
+ * This program finds the union of two given Hashsets and prints the union.
+ */
+
+public class QTwentySix {
 	public static void main(String[] args) {
 		HashSet<Integer> hs1 = new HashSet<>();
 		HashSet<Integer> hs2 = new HashSet<>();

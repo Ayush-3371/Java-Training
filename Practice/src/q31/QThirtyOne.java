@@ -4,7 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.function.Consumer;
 
-public class Q31 {
+/**
+ * This program converts every string in a list of strings to upper & lower case and prints the list.
+ */
+
+public class QThirtyOne {
 	
 	@FunctionalInterface
 	interface Func3{
