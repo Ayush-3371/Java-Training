@@ -1,8 +1,10 @@
-package q7;
+package q32;
 
+import q7.IsPrime;
 import java.util.Scanner;
+import java.util.function.Predicate;
 
-public class Q7 {
+public class Q32 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
@@ -11,12 +13,11 @@ public class Q7 {
 		
 		Integer n = s.nextInt();
 		
-		s.close();
+		IsPrime c = new IsPrime();
 		
-		IsPrime p = new IsPrime();
+		Predicate<Integer> p = num -> c.checkPrime(num);
 		
-		if(p.checkPrime(n)) System.out.println(n + " is a prime number.");
-		
+		if(p.test(n)) System.out.println(n + " is a prime number.");
 		else System.out.println(n + " is not a prime number.");
 	}
 
